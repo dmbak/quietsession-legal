@@ -1,0 +1,184 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #ffffff;
+  color: #1a1a1a;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  line-height: 1.65;
+}
+
+a {
+  color: #2c6fad;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.site-header {
+  border-bottom: 1px solid #e8e8e8;
+  padding: 1rem 1.5rem;
+}
+
+.site-header nav {
+  max-width: 680px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+  align-items: center;
+}
+
+.site-header nav .brand {
+  font-weight: 600;
+  color: #1a1a1a;
+  margin-right: auto;
+}
+
+.site-header nav a {
+  font-size: 0.9rem;
+  color: #555555;
+}
+
+.site-header nav a:hover {
+  color: #1a1a1a;
+  text-decoration: none;
+}
+
+main {
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 3rem 1.5rem 4rem;
+}
+
+.hero {
+  margin-bottom: 2.5rem;
+}
+
+.hero h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0 0 0.5rem;
+  letter-spacing: -0.01em;
+}
+
+.hero p.subtitle {
+  font-size: 1.1rem;
+  color: #555555;
+  margin: 0 0 1.25rem;
+}
+
+.hero p {
+  color: #333333;
+  margin: 0 0 1.5rem;
+}
+
+.hero-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 1.5rem;
+}
+
+.hero-links li a {
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin: 0 0 0.25rem;
+  letter-spacing: -0.01em;
+}
+
+h2 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 2rem 0 0.5rem;
+  color: #1a1a1a;
+}
+
+p {
+  margin: 0 0 1rem;
+  color: #333333;
+}
+
+ul {
+  padding-left: 1.4rem;
+  margin: 0 0 1rem;
+  color: #333333;
+}
+
+ul li {
+  margin-bottom: 0.3rem;
+}
+
+.page-meta {
+  font-size: 0.82rem;
+  color: #888888;
+  margin: 0.25rem 0 2.5rem;
+}
+
+.contact-link {
+  font-weight: 500;
+}
+
+.faq-item {
+  margin-bottom: 1.75rem;
+}
+
+.faq-item h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0 0 0.35rem;
+  color: #1a1a1a;
+}
+
+.faq-item p {
+  margin: 0;
+}
+
+.support-contact {
+  background: #f7f7f7;
+  border-radius: 6px;
+  padding: 1.25rem 1.5rem;
+  margin: 2rem 0;
+}
+
+.support-contact p {
+  margin: 0 0 0.5rem;
+}
+
+.support-contact p:last-child {
+  margin: 0;
+}
+
+.site-footer {
+  border-top: 1px solid #e8e8e8;
+  padding: 1.25rem 1.5rem;
+  text-align: center;
+  font-size: 0.8rem;
+  color: #999999;
+}
+
+@media (max-width: 480px) {
+  .hero h1 {
+    font-size: 1.6rem;
+  }
+
+  h1 {
+    font-size: 1.45rem;
+  }
+}
